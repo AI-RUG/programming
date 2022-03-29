@@ -1,6 +1,7 @@
 body{
     text-align:center;
     font-family:"Open Sans",sans-serif;
+    font-size:18px;
 }
 
 h3 {
@@ -57,6 +58,7 @@ a{
     padding-left:10%;
     padding-right:10%;
     margin-top:80px;
+    text-align: left;;
 }
 
 
