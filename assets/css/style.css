@@ -28,8 +28,21 @@ a{
     box-shadow: #7413134d 1px 2px 0px;
 }
 
+a.button{
+    background:#cc0001;
+    padding:10px;
+    border-radius: 20px;
+    color:white;
+    text-decoration: none; 
+    display: block;
+    margin-bottom:60px;
+    margin-top:30px;
+    margin-left:35%;
+    margin-right:35%;
+    box-shadow: #7413134d 1px 2px 0px;
+}
 
-.button a:hover {
+a:hover.button  {
     background:#741313;
 }
 
@@ -51,7 +64,7 @@ a{
     font-size:25px;
 }
 
-.header p {
+.header p{
     margin-top:-20px;
 }
 
