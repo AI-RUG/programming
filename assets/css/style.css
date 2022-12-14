@@ -2,6 +2,43 @@ body{
     text-align:center;
     font-family:"Open Sans",sans-serif;
     font-size:18px;
+    min-height:100vh;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    background-color:#D7D7D7;
+    position:absolute;
+    left:0px;
+    right:0px;
+}
+
+.footer p {
+    font-size:12px;
+    padding-bottom:15px;
+    padding-left:2%;
+    padding-right:2%;
+    color:#cc0001;
+    font-weight:600;
+}
+
+h2.title {
+    padding-left:4%;
+    padding-right:4%;
+    text-align: left;
+    background-color:#cc0001;
+    color: white;
+    border-radius:10px;
+    margin-left:5%;
+    margin-right:5%;
+    box-shadow: rgba(80, 18, 18, 0.301) 1px 1px 1px;
+    font-weight:600;
+    font-size:21px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-bottom:-50px;
+    margin-top:30px;
 }
 
 h3 {
@@ -14,32 +51,26 @@ a{
     color:#cc0001;
 }
 
-.button a {
-    background:#cc0001;
-    padding:10px;
-    border-radius: 20px;
-    color:white;
-    text-decoration: none; 
-    display: block;
-    margin-bottom:60px;
-    margin-top:30px;
-    margin-left:35%;
-    margin-right:35%;
-    box-shadow: #7413134d 1px 2px 0px;
+img.logo {
+    height:50px;
+    float:left;
+    margin-left:-10%;
+    margin-top:8px;
 }
 
 a.button{
     background:#cc0001;
     padding:10px;
-    border-radius: 20px;
+    border-radius: 10px;
     color:white;
     text-decoration: none; 
     display: block;
-    margin-bottom:60px;
-    margin-top:30px;
-    margin-left:35%;
-    margin-right:35%;
     box-shadow: #7413134d 1px 2px 0px;
+    width:195px;
+    padding:-10px;
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:30px;
 }
 
 a:hover.button  {
@@ -62,6 +93,7 @@ a:hover.button  {
 
 .header h1{
     font-size:25px;
+    font-weight:600;
 }
 
 .header p{
@@ -69,12 +101,40 @@ a:hover.button  {
 }
 
 .content {
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:4%;
+    padding-right:4%;
     margin-top:80px;
-    text-align: left;;
+    text-align: left;
+    margin-left:5%;
+    margin-right:5%;
 }
 
+.content h3{
+    font-weight: 600;
+    font-size:20px;
+}
+
+.introduction {
+    padding-left:4%;
+    padding-right:4%;
+    margin-top:100px;
+    text-align: left;
+    background-color:#D7D7D7;
+    border-radius:10px;
+    margin-left:5%;
+    margin-right:5%;
+    box-shadow: rgba(80, 18, 18, 0.301) 1px 1px 1px;}
+
+.introduction h2{
+    padding-top:4%;
+    font-size:22px;
+    padding-bottom:2%;
+}
+
+.introduction h3{
+    font-weight: 600;
+    font-size:20px;
+}
 
 .subtitle{
     margin-top:-15px;
